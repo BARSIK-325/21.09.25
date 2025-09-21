@@ -1,0 +1,9 @@
+d = int(input())
+if d <= 13:
+   print ('детство')
+if d >= 14 and d <= 24:
+    print("молодость")
+if d >= 25 and d <= 59 :
+    print("зрелость")
+if d >= 60:
+    print("старость")
